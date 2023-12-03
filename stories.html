@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon/stories</title>
+    <link rel="icon" type="image/x-icon" href="Logo.jpg">
+    <style> 
+    .menu-item {
+            color: rgb(254, 254, 254);
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+      #menu-container {
+            background-color: rgb(151, 124, 63);
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 10px;
+      }
+        .image-container1 {
+        display: flex;
+         justify-content: space-between;
+        }
+
+        .image-text1 {
+        text-align: center;
+        padding: 0%;
+        }
+
+        .image-text1 img {
+         border-radius: 30px;
+        }
+        .image-container1 .image-text1 p a{
+            text-decoration: none;
+            color: black;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .image-text1 h3{
+            padding: 0%;
+        }
+        .image-container1 .image-text1 p a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+            font-weight: 700;
+            font-size: 25px;
+            background-color: #d8b361;
+            padding: 5px;
+            border-radius: 8px;
+        }
+        .menu-item:hover{
+    background-color: rgb(210, 163, 93);
+    border-radius: 20px;
+}
+/* New responsive styles */
+@media only screen and (max-width: 768px) {
+            /* Adjustments for tablet */
+            .menu-item {
+                font-size: 18px;
+                padding: 8px 16px;
+            }
+
+            h1#Sports {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .image-container1 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .image-text1 {
+                flex: 0 0 calc(50% - 20px); /* Two images per row */
+                margin: 10px;
+            }
+
+            .image-text1 img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            /* Adjustments for mobile */
+            .menu-item {
+                font-size: 16px;
+                padding: 6px 12px;
+            }
+
+            h1#Sports {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .image-container1 .image-text1 {
+                flex: 0 0 calc(95% - 10px); /* One image per row */
+                margin: 5px;
+            }
+
+            /* Slideshow JavaScript for mobile only */
+            .slideshow {
+                display: block;
+            }
+        }
+
+        /* Hide slideshow on larger screens */
+        @media only screen and (min-width: 481px) {
+            .slideshow {
+                display: none;
+            }
+        }
+        /* Additional CSS for proper arrow positioning */
+    .slider-container {
+        position: relative;
+    }
+
+    .slider-arrows {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .arrow {
+        cursor: pointer;
+        font-size: 24px;
+        color: #000;
+        background: rgba(252, 250, 250, 0.7);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+        </style>
+</head>
+<body>
+    <div id="menu-container">
+        <a href="Index.html" class="menu-item">Home</a>
+        <a href="stories.html" class="menu-item">Stories</a>
+        <a href="#" class="menu-item">Novels</a>
+        <a href="#" class="menu-item">Horrors</a>
+        </div>
+
+        <h1 id="Sports">Stories</h1>
+        <div class="slideshow">
+            <div class="slider-arrows">
+                <div class="arrow" id="left-arrow">&#10094;</div>
+                <div class="arrow" id="right-arrow">&#10095;</div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="image-container1">
+                <div class="image-text1">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMWM4OTYyODMtZTdkNS00NjI3LWFiYzItYTZkZTRhYTIyNWY1XkEyXkFqcGdeQXVyNjcyOTk3NDU@._V1_FMjpg_UX1000_.jpg" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1yx8pax3cgenI0Iv6UBzT-sExL0DHjNS3/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://static.wikia.nocookie.net/disneyprincess/images/7/75/Sleeping-beauty.jpg/revision/latest/thumbnail/width/360/height/450?cb=20130812151930" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1aDAnkVfAxnLLb8lhcEb2WglJ50VVqqAg/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://static.tvtropes.org/pmwiki/pub/images/littlemermaidposterqu.png" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/15k-W4KRZqu8I0rYFkj2UTkjO_wr7JCrN/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://childrenandmedia.org.au/assets/images/movie-reviews/snow_white_and_the_seven_dwarfs.jpg" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1t3HRHeB_wocOpPkzw7mrTxk8lEz2O1V5/view?usp=sharing">Read</a></p>
+                </div>
+            </div>     
+
+            <div class="image-container1">
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_aladdin1992_20486_174ba005.jpeg" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/117MTjck8F_VySn2J6AMdeZJq3CftYOfq/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_mulan_20529_83d3893a.jpeg?region=0%2C0%2C540%2C810" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1s6yEh5QhhUPhZVaBSVZSniTU4CPrGw5a/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://www.yourwdwstore.net/cdn-cgi/image/quality%3D85/assets/images/BlogImages/the-princess-and-the-frog-.jpg" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1cKHPQXxSpz0mNK2oqsU7Nr2DkF2O6rNf/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_tangled_20509_cd0a5809.jpeg" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1h5VU60czE5Vg3WBtTaZ93Q1EmBek_R1r/view?usp=sharing">Read</a></p>
+                </div>
+            </div> 
+            <div class="image-container1">
+                <div class="image-text1">
+                    <img src="https://cdn.kinocheck.com/i/88uxcm35fe.jpg" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1-2jcX7xOo0zWX6Ba8FNMQNxFg3DJHP2g/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg" alt="tree" width="250px" height="300px">
+                    <p><a href="#">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://images.moviesanywhere.com/e770d70f963c0d772b033a400be36ca5/2c4adb1b-842c-44a3-84a9-f0ae443d9fba.jpg" alt="tree" width="250px" height="300px">
+                    <p><a href="#">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_frozen_18373_3131259c.jpeg?region=0%2C0%2C540%2C810" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/1gsTs2QjsZX-p45n5jBkQfBuwar3VEdG1/view?usp=sharing">Read</a></p>
+                </div>
+            </div>
+            <div class="image-container1">
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_toystory_19639_424d94a0.jpeg" alt="tree" width="250px" height="300px">
+                    <p><a href="#">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://www.bookxcess.com/cdn/shop/products/disney-princess-cinderella-and-the-sapphire-ring-9781472389350-32252040380594.jpg?v=1648796977" alt="tree" width="250px" height="300px">
+                    <p><a href="https://drive.google.com/file/d/198iE_82RocMKiMb8VihScQnnPZx_i8H2/view?usp=sharing">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_aliceinwonderland_19875_ad409a49.jpeg" alt="tree" width="250px" height="300px">
+                    <p><a href="#">Read</a></p>
+                </div>
+                <div class="image-text1">
+                    <img src="https://lh6.googleusercontent.com/proxy/VNt1HBBiF3cgW-rNSTTOEanxH9IxZ-SCYrm3pEDDp6oTYFnpGKJQ4KYUc8edmZ_JWW7gWaHaI0o2H1Hvfcn05dagwSAY3FTYVX1rRVW8F5ge1USwS-U_ZNfaJUrbo2V3w_K8rh_ggZnQfx6dAEjXCuPt5OEY_lDgVxIxrLqz=s0-d" alt="tree" width="250px" height="300px">
+                    <p><a href="#">Read</a></p>
+                </div>
+            </div>
+         </div>
+    
+        
+        
+        
+<script>
+    // JavaScript for simple slideshow with arrow control (only on mobile)
+    if (window.matchMedia("(max-width: 480px)").matches) {
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("image-text1");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 160000); // Change image every 2 seconds
+        }
+
+        // Previous and Next slide functionality with arrow buttons
+        document.getElementById('left-arrow').addEventListener('click', () => {
+            slideIndex -= 2; // Move two slides back
+            showSlides();
+        });
+
+        document.getElementById('right-arrow').addEventListener('click', () => {
+            showSlides(); // Move to the next slide as usual
+        });
+    }
+</script>
+    
+</body>
+</html>
